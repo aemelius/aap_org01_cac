@@ -2,7 +2,7 @@
 
 controller_projects:
   - name: Demo01
-    organization: Wipro
+    organization: org01
     scm_branch: main
     scm_type: git
     scm_update_on_launch: true
