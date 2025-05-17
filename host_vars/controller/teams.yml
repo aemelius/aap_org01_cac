@@ -8,6 +8,6 @@ controller_teams:
     organization: org01
     description: HSBC Platform Team
 
-  - name: Wipro devloper Team
+  - name: Wipro developer Team
     organization: org01
     description: Wipro developer Team
