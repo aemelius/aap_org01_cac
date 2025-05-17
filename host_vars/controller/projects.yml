@@ -3,7 +3,7 @@
 controller_projects:
   - name: Demo01
     organization: Wipro
-    scm_branch: m
+    scm_branch: main
     scm_type: git
     scm_update_on_launch: true
     scm_url: https://github.com/ansible/tower-example.git

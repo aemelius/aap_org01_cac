@@ -1,5 +1,5 @@
 ---
 controller_inventories:
   -name: Dev-AAP-controller
-   organization: Wipro
+   organization: org01
    description: Created by Wipro Ansible Playbook

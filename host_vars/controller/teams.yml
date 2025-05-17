@@ -1,13 +1,13 @@
 ---
 controller_teams:
   - name: Wipro Team
-    organization: Wipro
+    organization: org01
     description: Wipro team for Puppet o ansible Program
 
   - name: HSBC Platform Team
-    organization: Wipro
+    organization: org01
     description: HSBC Platform Team
 
   - name: Wipro devloper Team
-    organization: Wipro
+    organization: org01
     description: Wipro developer Team
