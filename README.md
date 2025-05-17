@@ -11,8 +11,8 @@ The following are pre-requisites to use this repository, as described in [^1]:
   1. An inventory object (recommended name, for consistency: **org01_inv**)
   1. An inventory source object (recommended name: **org01_is**), associated with **org01_inv** and pointing to the **org01_cac** project
   1. A job template (recommended name: **org01_cac**), linking inventory **org01_inv** and project **controller_automator**
-  1. a user named **org01_admin**, with administration privileges on the organization **org01**
-  1. an AAP credential of type **Red Hat Ansible Automation Platform**; depending on the version of the collection infra.aap_configuration being used, some variable mapping might be required to use the available env injectors for this type of credentials. For further details see [^2] and [^3].
+  1. a user named **org01_admin**, with administration privileges on the organization **org01** (privileges can be assigned via creating a dedicated **admin** role for the org)
+  1. AAP credential of type **Red Hat Ansible Automation Platform**; depending on the version of the collection infra.aap_configuration being used, some variable mapping might be required to use the available env injectors for this type of credentials. For further details see [^2] and [^3].
 
 The creation of the pre-requisite objects in AAP is *not* covered by this repository: they need to be either created manually in AAP, or via ansible cli using something like [^4], keeping in mind that this gist covers the creation of CaC for an organization named "Default".
 
